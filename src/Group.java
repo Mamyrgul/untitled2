@@ -1,10 +1,12 @@
 import java.time.LocalDate;
+import java.util.Arrays;
 
 public class Group {
     String groupName;
     LocalDate startDate;
     String mentor;
     Person [] people;
+
     public Group(){}
 
     public  Group( String groupName,LocalDate startDate,String mentor,Person [] people){
@@ -17,8 +19,8 @@ public class Group {
 
     @Override
     public String toString() {
-        return "groupName=" + groupName + '\n' +
-                " startDate=" + startDate +
-                " mentor=" + mentor + '\n';
+        return "Group name= " + groupName + '\n' +
+                " Start date= " + startDate + "\n"+
+                "Mentor= " + mentor + '\n' +"People:"+ Arrays.toString(people);
     }
 }

@@ -18,8 +18,8 @@ public class Person {
 
     @Override
     public String toString() {
-        return "firstName= " + firstName + '\n' +
-                " lastName= " + lastName + '\n' +
-                " dateOfBirth= " + dateOfBirth ;
+        return "First name= " + firstName + '\n' +
+                " Last name= " + lastName + '\n' +
+                "Date of birth= " + dateOfBirth ;
     }
 }
